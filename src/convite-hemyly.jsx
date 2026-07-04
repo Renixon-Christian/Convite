@@ -44,7 +44,7 @@ const STOPS = [
       "Vai ter parada pra foto, água de coco na beira da praia e aquele vento bagunçando o seu cabelo do jeito que eu gosto.",
     ],
     tips: [
-      "Leva óculos de sol e protetor — o sol de Icapuí é malvado",
+      "Leva óculos de sol e protetor — o sol de Icapuí é malvadoo",
       "Roupa leve e que possa ficar cheia de areia",
       "Câmera do celular carregada, pra fazer os registros",
     ],
