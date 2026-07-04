@@ -551,6 +551,18 @@ export default function App() {
           .app-frame { max-width: 920px; }
         }
 
+        @media (min-width: 1280px) {
+          .app-frame { max-width: 1140px; }
+        }
+
+        @media (min-width: 1600px) {
+          .app-frame { max-width: 1320px; }
+        }
+
+        @media (min-width: 1800px) {
+          .app-frame { max-width: 1650px; }
+        }
+
         @media (max-width: 360px) {
           .invite-screen { padding-left: 18px; padding-right: 18px; }
           .photo-strip { gap: 8px; }
@@ -1081,6 +1093,20 @@ export default function App() {
           }
         }
 
+        @media (min-width: 1280px) {
+          .ticket-list {
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 22px;
+          }
+        }
+
+        @media (min-width: 1800px) {
+          .ticket-list {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 24px;
+          }
+        }
+
         .ticket-card {
           all: unset;
           cursor: pointer;
@@ -1256,6 +1282,13 @@ export default function App() {
           .detail-body {
             padding: 48px 48px 56px;
             max-width: 560px;
+          }
+        }
+
+        @media (min-width: 1800px) {
+          .detail-body {
+            max-width: 680px;
+            padding: 64px 64px 72px;
           }
         }
 
