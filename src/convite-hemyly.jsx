@@ -54,7 +54,7 @@ const STOPS = [
     num: "02",
     time: "11h/12h",
     timeNote: "chegada estimada após o passeio",
-    title: "Almoço no IN MARE BISTRO",
+    title: "Almoço no IN MARE BISTRÔ",
     place: "Lyttos Bungalows",
     tagline: "Comida boa, vista pra lá de especial, conversa jogada fora",
     icon: UtensilsCrossed,
