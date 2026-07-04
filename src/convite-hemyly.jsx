@@ -387,6 +387,10 @@ function InviteView({ onNext }) {
             <span className="boarding-value">Icapuí</span>
           </div>
         </div>
+
+        <p className="disclaimer-note">
+          *horários e programação passíveis de pequenos ajustes
+        </p>
       </div>
 
       {lightboxIndex !== null && (
@@ -539,6 +543,19 @@ export default function App() {
           .app-frame { min-height: 100vh; margin-top: 0; }
         }
 
+        @media (max-width: 360px) {
+          .invite-screen { padding-left: 18px; padding-right: 18px; }
+          .photo-strip { gap: 8px; }
+          .polaroid { width: 72px; }
+          .boarding-label { font-size: 8px; }
+          .boarding-value { font-size: 10.5px; }
+        }
+
+        @media (max-width: 320px) {
+          .polaroid { width: 62px; }
+          .photo-strip { gap: 6px; }
+        }
+
         .screen {
           min-height: 100vh;
           width: 100%;
@@ -595,7 +612,7 @@ export default function App() {
         .invite-name {
           font-family: 'Fraunces', serif;
           font-weight: 600;
-          font-size: 58px;
+          font-size: clamp(42px, 14vw, 58px);
           line-height: 1;
           text-align: center;
           margin: 0;
@@ -781,6 +798,14 @@ export default function App() {
           background-image: radial-gradient(circle, rgba(251,239,221,0.35) 1.5px, transparent 2px);
           background-size: 8px 10px;
           background-repeat: repeat-y;
+        }
+
+        .disclaimer-note {
+          text-align: center;
+          font-size: 10px;
+          font-style: italic;
+          color: rgba(251,239,221,0.45);
+          margin: 10px 0 0;
         }
 
         .photo-strip {
