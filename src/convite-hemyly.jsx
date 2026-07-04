@@ -543,6 +543,14 @@ export default function App() {
           .app-frame { min-height: 100vh; margin-top: 0; }
         }
 
+        @media (min-width: 700px) {
+          .app-frame { max-width: 640px; }
+        }
+
+        @media (min-width: 1024px) {
+          .app-frame { max-width: 920px; }
+        }
+
         @media (max-width: 360px) {
           .invite-screen { padding-left: 18px; padding-right: 18px; }
           .photo-strip { gap: 8px; }
@@ -581,6 +589,12 @@ export default function App() {
         .invite-content {
           position: relative;
           z-index: 2;
+          max-width: 380px;
+          margin: 0 auto;
+        }
+
+        @media (min-width: 700px) {
+          .invite-content { max-width: 420px; }
         }
 
         .stamp {
@@ -1014,6 +1028,10 @@ export default function App() {
           padding: 20px 20px 40px;
         }
 
+        @media (min-width: 700px) {
+          .itinerary-screen { padding: 32px 40px 56px; }
+        }
+
         .itinerary-header {
           display: flex;
           align-items: center;
@@ -1053,6 +1071,14 @@ export default function App() {
           display: flex;
           flex-direction: column;
           gap: 16px;
+        }
+
+        @media (min-width: 700px) {
+          .ticket-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+          }
         }
 
         .ticket-card {
@@ -1163,6 +1189,14 @@ export default function App() {
           background: #FBEFDD;
         }
 
+        @media (min-width: 700px) {
+          .detail-screen {
+            display: flex;
+            align-items: flex-start;
+            min-height: 100vh;
+          }
+        }
+
         .detail-cover {
           position: relative;
           height: 240px;
@@ -1173,6 +1207,16 @@ export default function App() {
           gap: 10px;
           background-size: cover;
           background-position: center;
+        }
+
+        @media (min-width: 700px) {
+          .detail-cover {
+            width: 42%;
+            height: 100vh;
+            position: sticky;
+            top: 0;
+            flex-shrink: 0;
+          }
         }
 
         .icon-back-light {
@@ -1206,6 +1250,13 @@ export default function App() {
 
         .detail-body {
           padding: 24px 22px 40px;
+        }
+
+        @media (min-width: 700px) {
+          .detail-body {
+            padding: 48px 48px 56px;
+            max-width: 560px;
+          }
         }
 
         .detail-place {
