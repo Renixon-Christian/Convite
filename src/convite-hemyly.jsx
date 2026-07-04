@@ -44,9 +44,9 @@ const STOPS = [
       "Vai ter parada pra foto, água de coco na beira da praia e aquele vento bagunçando o seu cabelo do jeito que eu gosto.",
     ],
     tips: [
-      "Leva óculos de sol e protetor — o sol de Icapuí não perdoa",
+      "Leva óculos de sol e protetor — o sol de Icapuí é malvado",
       "Roupa leve e que possa ficar cheia de areia",
-      "Câmera do celular carregada, vai ter fotão",
+      "Câmera do celular carregada, pra fazer os registros",
     ],
   },
   {
@@ -63,8 +63,8 @@ const STOPS = [
     cover: "linear-gradient(135deg, #FF9EA8 0%, #FFC1B0 50%, #FFE7CE 100%)",
     photo: PHOTO_ALMOCO,
     description: [
-      "Depois de empoeirados de buggy, a gente senta num point suspenso um pouco antes da praia, com vista pra toda a Praia de Picos, pra almoçar com calma e comentar cada susto e cada risada do passeio.",
-      "É a nossa pausa pra recarregar antes da segunda metade do dia — sem pressa nenhuma, só a gente, o cardápio e essa vista incrível.",
+      "Depois de ter feito um passeio de buggy, a gente senta num ponto suspenso um pouco antes da praia, com vista pra toda a Praia de Picos, pra almoçar com calma e comentar cada susto e cada risada do passeio.",
+      "É a nossa pausa pra recarregar antes da segunda metade do dia, sem pressa nenhuma, só a gente, o cardápio e essa vista incrível.",
     ],
     tips: [
       "Guarda espaço pra sobremesa, eu conheço você",
@@ -85,12 +85,12 @@ const STOPS = [
     cover: "linear-gradient(135deg, #2FBFAE 0%, #7FDCCF 50%, #CFF3EE 100%)",
     photo: PHOTO_PISCINAS,
     description: [
-      "A tarde começa com água transparente, rasa e mornaaa. Piscinas naturais formadas pelo mar em Ponta Grossa — daquelas que parecem photoshopadas mas são reais.",
-      "Hora de boiar, tirar foto de pé na água parecendo que estamos andando por cima do mar, e roubar uns beijos quando ninguém tiver olhando (ou mesmo se tiver).",
+      "A tarde começa com água transparente, rasa e mornaaa. Piscinas naturais formadas pelo mar em Ponta Grossa — daquelas que parecem ser mentira, mas são reais.",
+      "Hora de boiar, tirar foto, e roubar uns beijos quando ninguém tiver olhando (ou mesmo se tiver).",
     ],
     tips: [
       "Protetor solar de novo — reaplica sem dó",
-      "Celular bem protegido, esse point rende ótimos registros",
+      "Celular bem protegido, esse parte também rende ótimos registros",
     ],
   },
   {
@@ -107,12 +107,12 @@ const STOPS = [
     cover: "linear-gradient(135deg, #FFC157 0%, #FF9E6D 50%, #6B5B95 100%)",
     photo: PHOTO_SUNSET,
     description: [
-      "Voltamos pro Lyttos pra descansar: uma bebida gelada, os pés cansados e a sensação boa de ter aproveitado cada hora juntos, sem pressa de ir pra lugar nenhum.",
-      "E pra fechar com chave de ouro (literalmente), a gente vai pro cantinho do mirante de onde dá pra ver a praia inteira e o sol se pondo atrás do mar. É o nosso tempo pra descansar e curtir o pôr do sol antes de seguir cada um pra casa.",
+      "Voltamos para o Lyttos pra descansar, os pés cansados e a sensação boa de ter aproveitado cada hora juntos, sem pressa de ir pra lugar nenhum.",
+      "E pra fechar com chave de ouro (não ironicamente), a gente vai pro cantinho do mirante de onde dá pra ver a praia inteira e o sol se pondo atrás do mar. É o nosso tempo pra descansar e curtir o pôr do sol antes de seguir de volta para casa.",
     ],
     tips: [
-      "Guarda uma bateria de celular pra esse momento, o pôr do sol vai ser cena",
-      "Leva a câmera do coração pronta, o pôr do sol daqui é de outro nível",
+      "Guarda bateria de celular pra esse momento, o pôr do sol vai ser top",
+      "Leva a câmera do coração pronta, o pôr do sol vai ser de outro nível",
     ],
   },
 ];
