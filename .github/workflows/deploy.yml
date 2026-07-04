@@ -12,17 +12,28 @@ jobs:
     steps:
       - name: Checkout do código
         uses: actions/checkout@v4
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-      - name: Instalar dependências
-        run: npm install
+          node-version: '24'
+
+      - name: Install dependencies
+        run: npm ci
+
       - name: Build do projeto
         run: npm run build
+
+      - name: Verify build output
+        run: |
+          ls -la ./dist || (echo "ERROR: ./dist not found or empty" && exit 1)
+          head -n 5 ./dist/index.html || echo "No index.html found in ./dist"
+          du -sh ./dist || true
+
       - name: Upload das páginas
         uses: actions/upload-pages-artifact@v3
         with:
           path: './dist'
+
       - name: Deploy para o GitHub Pages
         uses: actions/deploy-pages@v4
